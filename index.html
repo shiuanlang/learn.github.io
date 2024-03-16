@@ -11,18 +11,19 @@
     <p align="center"><font size="6">快速學習網頁設計</font>
     <p align="center"><mark>([  ]都要用< >來代替唷ฅ^•ﻌ•^ฅ)</mark></p></font>
     <h3>基礎</h3>
-    <p><font size="4">[p]文字[/p]</font></p>
-    <li>內文</li>
-    <br>
     <p><font size="4">[h1]文字[/h1]</p>
     <li>標題(h1~h5為不同大小的字體)</li>
+    <p>範例: <h1>希望大家看得懂</h1><h2>希望大家看得懂</h2><h3>希望大家看得懂</h3><h4>希望大家看得懂</h4><h5>希望大家看得懂</h5></p>
     <br>
     <p><font size="4">[br]</p>
-    <li>空一行</li>
+    <li>換行</li>
+    <p>範例: <br>早安<br>午安<br>晚安</p>
     <br>
     <p><font size="4">[hr]</p>
     <li>一條線</li>
+    <p>範例: <hr></p>
     <br>
+
     <h3>超連結</h3>
     <p><font size="4">[a href="" target="" title=""]文字[/a]</font></p>
     <li><big>href</big>=<tt>"連結"</tt></li>
@@ -31,6 +32,7 @@
     <br>
     <p>範例: <a href="http://www.google.com" target="_blank" title="跳轉到google">點我跳轉</a>
     <br>
+
     <h3>圖片(jpg/png/gif)</h3>
     <p><font size="4">[img src="" height="" width=""]</font></p>
     <li><big>src</big><tt>="檔案"</tt></li>
@@ -40,13 +42,16 @@
     <p>範例:</p>
     <img src="picture/black_cat.gif" height="150" width="200">
     <br>
+
     <h3>音檔</h3>
     <p><font size="4">[audio][source src=""][/audio]</font></p>
     <li><big>audio</big> controls<tt>音檔控制</tt>/ autoplay<tt>自動播放</tt>/ muted<tt>靜音</tt>/ loop<tt>循環</tt></li>
     <li><big>source src</big><tt>="檔案"</tt></li>
     <p>範例:</p>
     <audio controls  loop><source src="music/Your friend Steve lyrics.mp3"></audio>
+
     <br>
+
     <h3>影片</h3>
     <p><font size="4">[video][source src=""][/video]</font></p>
     <li><big>video</big> controls<tt>音檔控制</tt>/ autoplay<tt>自動播放</tt>/ muted<tt>靜音</tt>/ loop<tt>循環</tt></li>
@@ -55,6 +60,62 @@
     <video controls loop height="300"><source src="video/Dancing Polish Cow.mp4"></video>
     <br>
     
+    <h3>網站圖標(要在head那邊做)</h3>
+    <p><font size="4">[link rel="icon" type="image/jpg or png" href="" ]</font></p>
+    <li><big>type</big><tt>="image/檔案種類"</tt></li>
+    <li><big>href</big><tt>="檔案"</tt></li>
+    <br>
+
+    <h3>文字格式</h3>
+    <p><font size="4">[p]文字[/p]</font></p>
+    <li>內文</li>
+    <p>範例: <p>歡迎來到東海資工勞改營!</p></p>
+    <p><font size="4">[b]文字[/b]</font></p>
+    <li>粗體</li>
+    <p>範例: <p>歡迎來到<b>東海資工勞改營!</b></p></p>
+    <p><font size="4">[i]文字[/i]</font></p>
+    <li>斜體</li>
+    <p>範例: <p>歡迎來到<i>東海資工勞改營!</i></p></p>
+    <p><font size="4">[u]文字[/u]</font></p>
+    <li>底線</li>
+    <p>範例: <p>歡迎來到<u>東海資工勞改營!</u></p></p>
+    <p><font size="4">[del]文字[/del]</font></p>
+    <li>槓掉</li>
+    <p>範例: <p>歡迎來到<del>東海資工勞改營!</del></p></p>
+    <p><font size="4">[big]文字[/big]</font></p>
+    <li>大字</li>
+    <p>範例: <p>歡迎來到<big>東海資工勞改營!</big></p></p>
+    <p><font size="4">[small]文字[/small]</font></p>
+    <li>小字</li>
+    <p>範例: <p>歡迎來到<small>東海資工勞改營!</small></p></p>
+    <p><font size="4">[sub]文字[/sub]</font></p>
+    <li>下移</li>
+    <p>範例: <p>歡迎來到<sub>東海資工勞改營!</sub></p></p>
+    <p><font size="4">[sup]文字[/sup]</font></p>
+    <li>上移</li>
+    <p>範例: <p>歡迎來到<sup>東海資工勞改營!</sup></p></p>
+    <p><font size="4">[tt]文字[/tt]</font></p>
+    <li>字距相等</li>
+    <p>範例: <p>歡迎來到<tt>東海資工勞改營!</tt></p></p>
+    <p><font size="4">[mark style="background-color: "]文字[/mark]</font></p>
+    <li><big>style="background-color</big><tt>: 顏色"</tt></li>
+    <li>螢光筆</li>
+    <p>範例: <p>歡迎來到<mark style="background-color: aqua;">東海資工勞改營!</mark></p></p>
+    <br>
+
+    <h3>行內容器和文字區塊</h3>
+    <p><font size="4">[p][span style="background-color: 顏色"][/span][/p]</font></p>
+    <li><big>span style="background-color</big><tt>: 顏色"</tt></li>
+    <p><font size="4">[p][div style="background-color: 顏色"][/div][/p]</font></p>
+    <li><big>div style="background-color</big><tt>: 顏色"</tt></li>
+    <p>範例: <p><span style="background-color: lightgreen;">這是文字區塊</span></p><p> <div style="background-color: lightgrey;">這是行內容器</div></p></p>
+    <br>
+
+    <h3>列表清單</h3>
+    <p><font size="4"></font></p>
+    <>
+    
+
     
 </body>
 </html>
